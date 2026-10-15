@@ -1,0 +1,15 @@
+# VoiceProof Backend Core Dependencies
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+pydantic>=2.9.0
+python-multipart>=0.0.12
+python-dotenv>=1.0.1
+
+# Optional Machine Learning dependencies for Facebook Wav2Vec2 inference
+# Note: Install PyTorch according to your hardware (CPU or CUDA):
+# https://pytorch.org/get-started/locally/
+# torch>=2.2.0
+# torchaudio>=2.2.0
+# transformers>=4.40.0
+# librosa>=0.10.2
+# soundfile>=0.12.1

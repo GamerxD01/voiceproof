@@ -1,0 +1,74 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Python environment & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+venv/
+.venv/
+env/
+ENV/
+
+# Production build outputs
+frontend/dist/
+frontend/dist-ssr/
+*.tsbuildinfo
+
+# Model weights and serialized checkpoints
+# Note: Keep architecture / config scripts in git, but ignore large weight files
+model/*.bin
+model/*.safetensors
+model/*.pt
+model/*.pth
+model/*.onnx
+model/checkpoint-*/
+model/**/pytorch_model.bin
+model/**/model.safetensors
+
+# Local uploads and temporary audio dumps
+backend/uploads/
+backend/temp/
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.m4a
+
+# Environment variables & secrets (keep .env.example tracked)
+.env
+.env.local
+.env.*.local
+backend/.env
+frontend/.env
+frontend/.env.local
+
+# IDE & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db

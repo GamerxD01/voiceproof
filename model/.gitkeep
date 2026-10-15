@@ -1,0 +1,2 @@
+# Keeps model/ folder tracked in version control.
+# Model binaries (*.bin, *.safetensors, *.pt) are excluded via root .gitignore.

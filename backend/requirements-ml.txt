@@ -1,0 +1,19 @@
+# VoiceProof Machine Learning / Deep Learning Dependencies
+# Install alongside requirements.txt when you are ready to load the fine-tuned Wav2Vec2 model.
+#
+# On Windows with NVIDIA GPU, install PyTorch with CUDA first:
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+#
+# For CPU-only:
+# pip install torch torchvision torchaudio
+torch>=2.2.0
+torchaudio>=2.2.0
+transformers>=4.40.0
+soundfile>=0.12.1
+scipy>=1.13.0
+numpy>=1.26.0
+av>=12.0.0
+
+# Testing dependencies
+pytest>=8.0.0
+httpx>=0.27.0
